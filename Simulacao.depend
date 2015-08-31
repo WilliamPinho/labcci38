@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1440987497 source:/home/comp/Documents/cci38/lab/Simulacao/main.cpp
+	<iostream>
+	"ActivityExecutive.h"
+
+1440913504 source:/home/comp/Documents/cci38/lab/Simulacao/src/Statistics.cpp
+	"Statistics.h"
+
+1440913504 /home/comp/Documents/cci38/lab/Simulacao/include/Statistics.h
+
+1440987249 source:/home/comp/Documents/cci38/lab/Simulacao/src/Distribution.cpp
+	"Distribution.h"
+	<iostream>
+	<chrono>
+	<random>
+	<boost/random.hpp>
+
+1440953262 /home/comp/Documents/cci38/lab/Simulacao/include/Distribution.h
+
+1440985920 /home/comp/Documents/cci38/lab/Simulacao/include/ActivityExecutive.h
+	"Activity.h"
+	<deque>
+
+1440985114 /home/comp/Documents/cci38/lab/Simulacao/include/Activity.h
+	"Entity.h"
+
+1440958577 /home/comp/Documents/cci38/lab/Simulacao/include/Entity.h
+
+1440985004 source:/home/comp/Documents/cci38/lab/Simulacao/src/Activity.cpp
+	"Activity.h"
+
+1440986989 source:/home/comp/Documents/cci38/lab/Simulacao/src/ActivityExecutive.cpp
+	"ActivityExecutive.h"
+	"Clerk.h"
+	<deque>
+	<iostream>
+	<algorithm>
+
+1440985920 /home/comp/Documents/cci38/lab/Simulacao/include/Clerk.h
+	"Entity.h"
+	"Distribution.h"
+	"Activity.h"
+	<deque>
+
+1440958682 source:/home/comp/Documents/cci38/lab/Simulacao/src/Entity.cpp
+	"Entity.h"
+
+1440987406 source:/home/comp/Documents/cci38/lab/Simulacao/src/Clerk.cpp
+	"Clerk.h"
+	"ActivityExecutive.h"
+	<iostream>
+
